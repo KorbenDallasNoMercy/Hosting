@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #949494;
+    -webkit-font-smoothing: antialiased;
+    background-color: #000;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+.header {
+    padding: 40px 0 50px;
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin-top: -12px;
+}
+
+/* Nav */
+
+.nav {
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+
+    opacity: .65;
+    transition: opacity .1s linear;
+
+    margin-left: 30px;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+
+
+
+/* Btn */
+.btn {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn--login {
+    margin-left: 57px;
+
+    padding: 14px 33px;
+    border: 1px solid #e84c3d;
+}
