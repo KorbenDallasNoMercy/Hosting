@@ -196,6 +196,29 @@ hr {
     transition: backgroud-color .1s linear;
 }
 
+.btn--submit {
+    width: 140px;
+    height: 50px;
+
+    position: relative;
+
+    background-color: #e84c3d;
+    border: none;
+    margin-right: -137px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+
+    transition: background-color .2s linear;
+}
+
+.btn--submit:hover {
+    background-color: #483b43;
+    border: 2px solid #e84c3d; 
+
+}
+
 
 /* Main features */
 
@@ -272,4 +295,96 @@ hr {
 .main__link:hover {
     text-decoration: underline;
 
+}
+
+
+/* Search Domain */
+
+.search__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #333;
+
+    padding-top: 42px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.search__subtitle {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+.form__container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form__img {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+}
+
+
+input[type=text]{
+  
+    position: relative;
+    margin-top: 10px;
+    margin-left: -135px;
+    
+    width:420px;
+    height: 50px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    color: #000000;
+
+    border: none;
+    outline:none;
+}
+
+input[type=text]:focus {
+    border: 2px solid #e84c3d; 
+}
+
+::-webkit-input-placeholder {
+    padding-left: 10px;
+}
+
+.select__form {
+    position: relative;
+
+    margin-left: -4px;
+    margin-top: 10px;
+    margin-right: -3px;
+
+    width: 60px;
+    height: 50px;
+
+
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    outline:none;
+ 
+}
+
+.select__form:focus {
+    border: 2px solid #e84c3d; 
+}
+
+.form__container {
+    margin-bottom: 50px;
 }
