@@ -187,13 +187,13 @@ hr {
     margin-bottom: 26px;
     width: 220px;
     height: 50px;
+
+    transition: background-color .2s linear;
 }
 
 .btn--main:hover {
     background-color: #483b43;
     border: 1px solid #e84c3d; 
-
-    transition: backgroud-color .1s linear;
 }
 
 .btn--submit {
@@ -327,7 +327,7 @@ hr {
 .form__container {
     display: flex;
     justify-content: center;
-
+    margin-bottom: 50px;
 }
 
 .form__img {
@@ -385,6 +385,44 @@ input[type=text]:focus {
     border: 2px solid #e84c3d; 
 }
 
-.form__container {
-    margin-bottom: 50px;
+/* Preference */
+
+.preference {
+    display: flex;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 60px;
+}
+
+.preference__item {
+    flex: 1 1 0;
+
+    padding-left: 68px;
+    position: relative;
+}
+
+.preference__icon {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    z-index: 1;
+}
+
+.preference__title {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: left;
+
+    margin-bottom: 10px;
+}
+
+.preference__text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    color: #5e5e5e;
 }
