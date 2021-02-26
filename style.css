@@ -426,3 +426,55 @@ input[type=text]:focus {
     text-align: left;
     color: #5e5e5e;
 }
+
+/* Features */
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.features__item {
+    padding-top: 50px;
+    width: 300px;
+    padding-left: 95px;
+    padding-bottom: 78px;
+
+    position: relative;
+    cursor: pointer;
+}
+
+.features__item:hover .features__icon {
+    fill: #ca473c;
+}
+.dick {
+    background-color: #2b2f37;
+}
+
+.features__icon {
+    position: absolute;
+    top: 53px;
+    left: 40px;
+    z-index: 1000;
+
+    height: 23px;
+    width: 27px;
+}
+
+
+.features__title {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.features__text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5e666a;
+}
