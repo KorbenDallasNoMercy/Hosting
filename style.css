@@ -389,23 +389,26 @@ input[type=text]:focus {
 
 .preference {
     display: flex;
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .preference__item {
-    flex: 1 1 0;
+    padding-top: 50px;
+    width: 300px;
+    padding-left: 95px;
+    padding-bottom: 60px;
+    padding-right: 10px;
 
-    padding-left: 68px;
     position: relative;
+    cursor: pointer;
 }
 
 .preference__icon {
     position: absolute;
-    top: 0;
-    left: 30px;
-    z-index: 1;
+    top: 50px;
+    left: 40px;
+    z-index: 1000;
 }
 
 .preference__title {
@@ -429,6 +432,17 @@ input[type=text]:focus {
 
 /* Features */
 
+.features__header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -437,25 +451,30 @@ input[type=text]:focus {
 }
 
 .features__item {
-    padding-top: 50px;
     width: 300px;
     padding-left: 95px;
+    
     padding-bottom: 78px;
-
     position: relative;
     cursor: pointer;
+}
+.features__item:last-child {
+    padding-bottom: 100px;
 }
 
 .features__item:hover .features__icon {
     fill: #ca473c;
+
+    transition: fill .2s linear;
+    filter: drop-shadow(0 0 10px red);
 }
-.dick {
+.base {
     background-color: #2b2f37;
 }
 
 .features__icon {
     position: absolute;
-    top: 53px;
+    top: 0px;
     left: 40px;
     z-index: 1000;
 
@@ -478,3 +497,46 @@ input[type=text]:focus {
     font-size: 14px;
     color: #5e666a;
 }
+
+/* Pick your plan */
+
+.prices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.prices__item {
+    width: 260px;
+    border: 1px solid #bebebe;
+
+    margin-left: 45px;
+}
+
+
+
+.prices__title {
+    padding-top: 80px;
+    padding-bottom: 22px;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000000;
+}
+
+.prices__subtitle {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+
+    padding-bottom: 40px;
+
+}
+
