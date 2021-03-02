@@ -231,7 +231,7 @@ hr {
 
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
 
     margin: auto;
@@ -521,38 +521,41 @@ input[type=text]:focus {
 /* Pick your plan */
 
 .prices__title {
-    margin-bottom: 50px;
-        text-align: center;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    font-size: 40px;
     }
     
-    .prices__subtitle {
-      margin-bottom: 50px; 
-        text-align: center;
-    }
+.prices__subtitle {
+    margin-top: 25px;
+    margin-bottom: 40px; 
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
     
-    .prices {
-        padding-bottom: 18px;
-        margin-left: 80px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-items: center;
+.prices {
+    padding-bottom: 18px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
         
-    
+    width: 780px;
+    height: 421px;
         
-        width: 780px;
-        height: 421px;
-        
-        border: 1px solid #bebebe;
-        
-        
-    }
+    border: 1px solid #bebebe; 
+}
     
     .prices__item:hover {
-       width: 300px;
+        width: 300px;
         color: #fff;
         background-color: #2c3039;
         transition: background-color .2s linear;
-        
     }
     
     .prices__item:hover .btn--plan {
@@ -566,7 +569,7 @@ input[type=text]:focus {
     }
     
     
-    .prices__item {
+.prices__item {
         width: 259px;
         height: 420px;
         border-right: 1px solid #bebebe;
@@ -577,28 +580,29 @@ input[type=text]:focus {
         border-right: none;
     }
     
-    .plan__title {
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        color:#333;
-        text-align: center;
-    
-        padding-top: 28px;
-    }
+.plan__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#333;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-top: 28px;
+}
     
     .prices__item:hover .plan__title {
        color: #fff; 
     }
     
-    .plan__subtitle{
-        font-family: 'PT Sans', sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        color:#333;
-        text-align: center;
-        padding-top: 10px;
-    }
+.plan__subtitle{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#333;
+    text-align: center;
+    padding-top: 10px;
+}
     
     .prices__item:hover .plan__subtitle {
        color: #fff; 
@@ -616,66 +620,65 @@ input[type=text]:focus {
     
     /* PRICE START*/
     
-    .plan__price {
-        text-align: center;
-        
-    }
+.plan__price {
+    text-align: center;    
+}
     
-    .dollar {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        color: #333; 
-        font-size: 25px;
-        vertical-align: 17px;
-        
-    }
+.dollar {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333; 
+    font-size: 25px;
+    vertical-align: 17px; 
+}
     .prices__item:hover .dollar {
        color: #fff; 
     }
     
-    .number {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        color: #333;
-        font-size: 50px;
-    }
+.number {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333;
+    font-size: 50px;
+}
     
     .prices__item:hover .number {
        color: #fff; 
     }
     
-    .mount {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        color: #333;
-        font-size: 12px;
-    }
+.mount {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333;
+    font-size: 12px;
+}
+
     .prices__item:hover .mount {
        color: #fff; 
     }
     
     /* PRICE END */
     
+.plan__desc {
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 33px;
+        
+    text-align: center;
+    line-height: 1.7;
+}
+
     .prices__item:hover .desc__item {
         color: #fff;
     }
     
-    .plan__desc {
-        list-style: none;
-        padding: 0;
-        padding-top: 10px;
-        padding-bottom: 33px;
-        
-        text-align: center;
-        line-height: 1.7;
-    }
-    
-    .desc__item {
-        font-family: 'PT Sans', sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        color: #6d6d6d;
-    }
+.desc__item {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6d6d6d;
+}
     
     .prices__item:hover .plan__header {
         background-color: #e84c3d;
@@ -684,3 +687,91 @@ input[type=text]:focus {
     .prices__item:hover .plan__subtitle:after {
         background-color: #e84c3d;
     }
+
+.plan__text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.red__text {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+
+/* TESTIMONIALS */
+
+.testimon__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+
+    padding-bottom: 20px;
+}
+
+.testimon__subtitle {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+
+    padding-bottom: 50px;
+}
+
+.testimon__icon {
+    display: block;
+    margin: 0 auto;
+
+    padding-bottom: 40px;
+}
+
+.reviews {
+    margin: 0 auto;
+    text-align: center;
+
+    width: 100%;
+    max-width: 780px;
+}
+
+.reviews__text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+
+    padding-bottom: 30px;
+}
+
+.reviews__icon {
+    padding-bottom: 25px;
+}
+
+.reviews__author {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #aaaaaa;
+
+    padding-bottom: 60px;
+}
+
+
+/* COMPANY BLOG */
+
+.blog__title {
+    margin-top: 80px;
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+
