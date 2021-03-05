@@ -1188,3 +1188,10 @@ svg.social__icon:last-child{
     font-size: 12px;
     color: #333;
 }
+
+
+/* Burger */
+
+.burger {
+    display: none;
+}
